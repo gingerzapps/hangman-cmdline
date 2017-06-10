@@ -9,30 +9,30 @@ class Hangman {
 	//===========//
 	ArrayList<String> words = new ArrayList<String>(); //list of words game pulls from
 	void wordList(){/** ArrayList created with words, the "words.add()" must be in a method, so here we are.*/
-			words.add("SWEET");						words.add("BUTTERFLY");
-			words.add("YES");							words.add("PANTHER");
-			words.add("PLAYFUL");					words.add("BALD EAGLE");
-			words.add("CRAZY");						words.add("SEA TURTLE");
-			words.add("YELLING");					words.add("BROWNIE");
-			words.add("SNOWBALL");				words.add("SNICKERDOODLE");
-			words.add("CHRISTMAS");				words.add("BREAKFAST");
+			words.add("SWEET");			words.add("BUTTERFLY");
+			words.add("YES");			words.add("PANTHER");
+			words.add("PLAYFUL");			words.add("BALD EAGLE");
+			words.add("CRAZY");			words.add("SEA TURTLE");
+			words.add("YELLING");			words.add("BROWNIE");
+			words.add("SNOWBALL");			words.add("SNICKERDOODLE");
+			words.add("CHRISTMAS");			words.add("BREAKFAST");
 			words.add("SOUTHGATE");		  	words.add("DINNER");
-			words.add("NOT");							words.add("ROLLS");
-			words.add("UGLY");							words.add("RUNNING");
-			words.add("HELL");							words.add("FOUND");
-			words.add("RIDICULOUS");				words.add("DUSTY");
-			words.add("DELICIOUS");				words.add("COUGHING");
-			words.add("PHONE");						words.add("BONNET");
-			words.add("AUTOMOBILE");			words.add("HUMOR");
-			words.add("ALPHABET");					words.add("RAY GUN");
-			words.add("HANGMAN");					words.add("POLLUTION");
-			words.add("GAMES");						words.add("DEATHRAY");
-			words.add("CARROT");					words.add("PERSON");
-			words.add("DRAGON");					words.add("RAINSTORM");
-			words.add("LETTUCE");					words.add("WANDERING");
-			words.add("HEALTY");						words.add("IMAGINE");
-			words.add("PIZZA");							words.add("ATTEMPTING");
-			words.add("WACKY");						words.add("MATURE");
+			words.add("NOT");			words.add("ROLLS");
+			words.add("UGLY");			words.add("RUNNING");
+			words.add("HELL");			words.add("FOUND");
+			words.add("RIDICULOUS");		words.add("DUSTY");
+			words.add("DELICIOUS");			words.add("COUGHING");
+			words.add("PHONE");			words.add("BONNET");
+			words.add("AUTOMOBILE");		words.add("HUMOR");
+			words.add("ALPHABET");			words.add("RAY GUN");
+			words.add("HANGMAN");			words.add("POLLUTION");
+			words.add("GAMES");			words.add("DEATHRAY");
+			words.add("CARROT");			words.add("PERSON");
+			words.add("DRAGON");			words.add("RAINSTORM");
+			words.add("LETTUCE");			words.add("WANDERING");
+			words.add("HEALTY");			words.add("IMAGINE");
+			words.add("PIZZA");			words.add("ATTEMPTING");
+			words.add("WACKY");			words.add("MATURE");
 	}
 	ArrayList<Character> lettersGuessed = new ArrayList<Character>(); //list of letters guessed in word
 	ArrayList<Character> guesses = new ArrayList<Character>(); //list of letters guessed throughout game in entire alphabet
